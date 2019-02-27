@@ -1,0 +1,141 @@
+/*
+Theme Name: Tema web mio
+Theme URI: https://github.com/hojacero9/
+Author: Cristian
+Description: Tema de Ejemplo, per ver como crear temas de wordpress.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Temawebmio
+*/
+
+
+/*header{
+  padding: 66px 0px 66px 0px;
+}*/
+
+#userInfoContainer{
+    height: 100%;
+}
+
+#userInfo{
+    color: #ffffff;
+}
+
+
+
+
+.main-div {
+  background: #090808 none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+
+/* Sidebarr*/
+
+#primary-sidebar{
+  background-color: #fad6a5;
+  float: left;
+  height:100%;
+}
+
+/* MENU */
+
+/*div.nav-menu{
+  background:#ff0000;
+  float:right;
+}*/
+
+div.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float:right;
+}
+div.nav-menu li {
+  position: relative;
+  line-height: 1.7;
+  float: left;
+  padding-right: 10px;
+}
+div.nav-menu a {
+  color: #f60202;
+  text-decoration: none;
+  display: block;
+}
+div.nav-menu > ul > li {
+  float: left;
+}
+div.nav-menu > ul > li > a{
+  padding: 10px 10px;
+}
+div.nav-menu > ul > li:hover > a{
+  background: #333;
+}
+
+/* Sub/Children Menu */
+div.nav-menu .sub-menu,
+div.nav-menu .children {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 1;
+  background: #333;
+  min-width: 200px;
+  display: none;
+}
+div.nav-menu li:hover > .sub-menu,
+div.nav-menu li:hover > .children {
+  display: block;
+}
+div.nav-menu .sub-menu a,
+div.nav-menu .children a {
+  padding: 5px 10px;
+}
+div.nav-menu .sub-menu li:hover a,
+div.nav-menu .children li:hover a {
+  background: #444;
+}
+
+/* Grandchildren Menu */
+div.nav-menu .sub-menu .sub-menu,
+div.nav-menu .children .children {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background: #444;
+}
+
+
+
+article.article-full {
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #000; 
+font-size: 15px; 
+font-weight: 400; 
+text-align: left;  
+margin: 0 0 25px; 
+overflow: hidden; 
+padding: 20px; 
+}
+
+h2 {
+  margin: 10px;
+  max-width: 38%;
+  padding: 50px;
+}
+
+
